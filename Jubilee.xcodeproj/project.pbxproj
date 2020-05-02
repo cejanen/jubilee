@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8426ADA724463FCE0052F71F /* Date+CheckSameDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426ADA624463FCE0052F71F /* Date+CheckSameDay.swift */; };
+		8426ADA9244646860052F71F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426ADA8244646860052F71F /* UserDefaultsManager.swift */; };
+		8426ADAB24464EAF0052F71F /* Color+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426ADAA24464EAF0052F71F /* Color+CustomColors.swift */; };
+		847DE0382432340E003AB667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE0372432340E003AB667 /* AppDelegate.swift */; };
+		847DE03A2432340E003AB667 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE0392432340E003AB667 /* SceneDelegate.swift */; };
+		847DE03C2432340E003AB667 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE03B2432340E003AB667 /* ChatViewController.swift */; };
+		847DE03F2432340E003AB667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847DE03D2432340E003AB667 /* Main.storyboard */; };
+		847DE04124323412003AB667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847DE04024323412003AB667 /* Assets.xcassets */; };
+		847DE04424323412003AB667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847DE04224323412003AB667 /* LaunchScreen.storyboard */; };
+		847DE04F24323457003AB667 /* testShort.json in Resources */ = {isa = PBXBuildFile; fileRef = 847DE04D24323457003AB667 /* testShort.json */; };
+		847DE05024323457003AB667 /* testFull.json in Resources */ = {isa = PBXBuildFile; fileRef = 847DE04E24323457003AB667 /* testFull.json */; };
+		847DE05424327350003AB667 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE05324327350003AB667 /* Sender.swift */; };
+		847DE0562432735B003AB667 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE0552432735B003AB667 /* Message.swift */; };
+		847DE059243276E0003AB667 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE058243276E0003AB667 /* DataLoader.swift */; };
+		84A1943624465AD30037B5E3 /* LocalNotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A1943524465AD30037B5E3 /* LocalNotificationScheduler.swift */; };
+		9312973C1099F912D4A7D850 /* Pods_Jubilee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3DF9AD63EE2B711A109FE1 /* Pods_Jubilee.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C155A44761F6D99E27C3531 /* Pods-com.commemoratemessenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.commemoratemessenger.debug.xcconfig"; path = "Target Support Files/Pods-com.commemoratemessenger/Pods-com.commemoratemessenger.debug.xcconfig"; sourceTree = "<group>"; };
+		5D3DF9AD63EE2B711A109FE1 /* Pods_Jubilee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jubilee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		650D8B9BD8256B16E9772325 /* Pods-Jubilee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jubilee.release.xcconfig"; path = "Target Support Files/Pods-Jubilee/Pods-Jubilee.release.xcconfig"; sourceTree = "<group>"; };
+		6D3A6732BD9596EC15964C5E /* Pods-com.commemoratemessenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-com.commemoratemessenger.release.xcconfig"; path = "Target Support Files/Pods-com.commemoratemessenger/Pods-com.commemoratemessenger.release.xcconfig"; sourceTree = "<group>"; };
+		8426ADA624463FCE0052F71F /* Date+CheckSameDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+CheckSameDay.swift"; sourceTree = "<group>"; };
+		8426ADA8244646860052F71F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+		8426ADAA24464EAF0052F71F /* Color+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CustomColors.swift"; sourceTree = "<group>"; };
+		847DE0342432340E003AB667 /* Jubilee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jubilee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DE0372432340E003AB667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		847DE0392432340E003AB667 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		847DE03B2432340E003AB667 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		847DE03E2432340E003AB667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847DE04024323412003AB667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847DE04324323412003AB667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847DE04524323412003AB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847DE04D24323457003AB667 /* testShort.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testShort.json; sourceTree = "<group>"; };
+		847DE04E24323457003AB667 /* testFull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testFull.json; sourceTree = "<group>"; };
+		847DE05324327350003AB667 /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
+		847DE0552432735B003AB667 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		847DE058243276E0003AB667 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		84A1943524465AD30037B5E3 /* LocalNotificationScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationScheduler.swift; sourceTree = "<group>"; };
+		DE560FB110B0B23C62627C5A /* Pods-Jubilee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jubilee.debug.xcconfig"; path = "Target Support Files/Pods-Jubilee/Pods-Jubilee.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847DE0312432340E003AB667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9312973C1099F912D4A7D850 /* Pods_Jubilee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847DE02B2432340E003AB667 = {
+			isa = PBXGroup;
+			children = (
+				847DE0362432340E003AB667 /* Jubilee */,
+				847DE0352432340E003AB667 /* Products */,
+				85B870044B51D56CB8AFD32A /* Pods */,
+				FA4F624CC8060F3ADE424513 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		847DE0352432340E003AB667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847DE0342432340E003AB667 /* Jubilee.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847DE0362432340E003AB667 /* Jubilee */ = {
+			isa = PBXGroup;
+			children = (
+				847DE05A24327DC6003AB667 /* ViewControllers */,
+				847DE057243276CF003AB667 /* Utils */,
+				847DE0522432723E003AB667 /* Models */,
+				847DE05124325B65003AB667 /* Storyboards */,
+				847DE04B2432343B003AB667 /* Resources */,
+				847DE0372432340E003AB667 /* AppDelegate.swift */,
+				847DE0392432340E003AB667 /* SceneDelegate.swift */,
+				847DE04524323412003AB667 /* Info.plist */,
+			);
+			path = Jubilee;
+			sourceTree = "<group>";
+		};
+		847DE04B2432343B003AB667 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				847DE04024323412003AB667 /* Assets.xcassets */,
+				847DE04C24323445003AB667 /* Data */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		847DE04C24323445003AB667 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				847DE04E24323457003AB667 /* testFull.json */,
+				847DE04D24323457003AB667 /* testShort.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		847DE05124325B65003AB667 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				847DE03D2432340E003AB667 /* Main.storyboard */,
+				847DE04224323412003AB667 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		847DE0522432723E003AB667 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				847DE05324327350003AB667 /* Sender.swift */,
+				847DE0552432735B003AB667 /* Message.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		847DE057243276CF003AB667 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				84A1943424465AB40037B5E3 /* Extensions */,
+				847DE058243276E0003AB667 /* DataLoader.swift */,
+				8426ADA8244646860052F71F /* UserDefaultsManager.swift */,
+				84A1943524465AD30037B5E3 /* LocalNotificationScheduler.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		847DE05A24327DC6003AB667 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				847DE03B2432340E003AB667 /* ChatViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84A1943424465AB40037B5E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8426ADA624463FCE0052F71F /* Date+CheckSameDay.swift */,
+				8426ADAA24464EAF0052F71F /* Color+CustomColors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		85B870044B51D56CB8AFD32A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C155A44761F6D99E27C3531 /* Pods-com.commemoratemessenger.debug.xcconfig */,
+				6D3A6732BD9596EC15964C5E /* Pods-com.commemoratemessenger.release.xcconfig */,
+				DE560FB110B0B23C62627C5A /* Pods-Jubilee.debug.xcconfig */,
+				650D8B9BD8256B16E9772325 /* Pods-Jubilee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA4F624CC8060F3ADE424513 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D3DF9AD63EE2B711A109FE1 /* Pods_Jubilee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847DE0332432340E003AB667 /* Jubilee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DE04824323412003AB667 /* Build configuration list for PBXNativeTarget "Jubilee" */;
+			buildPhases = (
+				B0EA5B6DA7724622B48AAC76 /* [CP] Check Pods Manifest.lock */,
+				847DE0302432340E003AB667 /* Sources */,
+				847DE0312432340E003AB667 /* Frameworks */,
+				847DE0322432340E003AB667 /* Resources */,
+				32A825928734736A7D7F764D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jubilee;
+			productName = com.commemoratemessenger;
+			productReference = 847DE0342432340E003AB667 /* Jubilee.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847DE02C2432340E003AB667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = CJ;
+				TargetAttributes = {
+					847DE0332432340E003AB667 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 847DE02F2432340E003AB667 /* Build configuration list for PBXProject "Jubilee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 847DE02B2432340E003AB667;
+			productRefGroup = 847DE0352432340E003AB667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847DE0332432340E003AB667 /* Jubilee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847DE0322432340E003AB667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DE05024323457003AB667 /* testFull.json in Resources */,
+				847DE04424323412003AB667 /* LaunchScreen.storyboard in Resources */,
+				847DE04124323412003AB667 /* Assets.xcassets in Resources */,
+				847DE04F24323457003AB667 /* testShort.json in Resources */,
+				847DE03F2432340E003AB667 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32A825928734736A7D7F764D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jubilee/Pods-Jubilee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Jubilee/Pods-Jubilee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Jubilee/Pods-Jubilee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0EA5B6DA7724622B48AAC76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jubilee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847DE0302432340E003AB667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DE05424327350003AB667 /* Sender.swift in Sources */,
+				847DE03C2432340E003AB667 /* ChatViewController.swift in Sources */,
+				847DE059243276E0003AB667 /* DataLoader.swift in Sources */,
+				847DE0562432735B003AB667 /* Message.swift in Sources */,
+				847DE0382432340E003AB667 /* AppDelegate.swift in Sources */,
+				8426ADAB24464EAF0052F71F /* Color+CustomColors.swift in Sources */,
+				8426ADA724463FCE0052F71F /* Date+CheckSameDay.swift in Sources */,
+				8426ADA9244646860052F71F /* UserDefaultsManager.swift in Sources */,
+				84A1943624465AD30037B5E3 /* LocalNotificationScheduler.swift in Sources */,
+				847DE03A2432340E003AB667 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		847DE03D2432340E003AB667 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DE03E2432340E003AB667 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847DE04224323412003AB667 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847DE04324323412003AB667 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847DE04624323412003AB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847DE04724323412003AB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847DE04924323412003AB667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE560FB110B0B23C62627C5A /* Pods-Jubilee.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQVQF9B5PW;
+				INFOPLIST_FILE = jubilee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ceja.jubilee;
+				PRODUCT_NAME = Jubilee;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		847DE04A24323412003AB667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650D8B9BD8256B16E9772325 /* Pods-Jubilee.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQVQF9B5PW;
+				INFOPLIST_FILE = jubilee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cz.ceja.jubilee;
+				PRODUCT_NAME = Jubilee;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847DE02F2432340E003AB667 /* Build configuration list for PBXProject "Jubilee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DE04624323412003AB667 /* Debug */,
+				847DE04724323412003AB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847DE04824323412003AB667 /* Build configuration list for PBXNativeTarget "Jubilee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DE04924323412003AB667 /* Debug */,
+				847DE04A24323412003AB667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847DE02C2432340E003AB667 /* Project object */;
+}
