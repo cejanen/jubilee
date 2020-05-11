@@ -50,9 +50,6 @@ final class ChatViewController: MessagesViewController {
         messageInputBar.isHidden = true
         title = "Jubilee"
 
-        // TODO:
-        userDefaultsManager.storeLastOpenMessageDate(date: nil)
-
         createPlayView()
     }
 
@@ -160,6 +157,7 @@ private extension ChatViewController {
     }
 
     func storeLastViewedDate(date: Date?) {
+        print("storeLastViewedDate \(date)")
         userDefaultsManager.storeLastOpenMessageDate(date: date ?? Date())
     }
 

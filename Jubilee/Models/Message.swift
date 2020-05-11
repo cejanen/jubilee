@@ -51,7 +51,9 @@ extension Message: MessageType {
     var sentDate: Date {
         let dateFormatter = DateFormatter()
         // 2014-03-22T13:58:04.5574257+01:00
-        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
+        print("date original: \(date)")
+        dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss"
+        print("date formatted: \(dateFormatter.date(from: date))")
         return dateFormatter.date(from: date) ?? Date()
     }
 }

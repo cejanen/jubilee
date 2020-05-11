@@ -10,14 +10,14 @@
 		8426ADA724463FCE0052F71F /* Date+CheckSameDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426ADA624463FCE0052F71F /* Date+CheckSameDay.swift */; };
 		8426ADA9244646860052F71F /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426ADA8244646860052F71F /* UserDefaultsManager.swift */; };
 		8426ADAB24464EAF0052F71F /* Color+CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426ADAA24464EAF0052F71F /* Color+CustomColors.swift */; };
+		842CD608246988C400E72D8D /* testShort.json in Resources */ = {isa = PBXBuildFile; fileRef = 842CD606246988C400E72D8D /* testShort.json */; };
+		842CD609246988C400E72D8D /* testFull.json in Resources */ = {isa = PBXBuildFile; fileRef = 842CD607246988C400E72D8D /* testFull.json */; };
 		847DE0382432340E003AB667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE0372432340E003AB667 /* AppDelegate.swift */; };
 		847DE03A2432340E003AB667 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE0392432340E003AB667 /* SceneDelegate.swift */; };
 		847DE03C2432340E003AB667 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE03B2432340E003AB667 /* ChatViewController.swift */; };
 		847DE03F2432340E003AB667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847DE03D2432340E003AB667 /* Main.storyboard */; };
 		847DE04124323412003AB667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847DE04024323412003AB667 /* Assets.xcassets */; };
 		847DE04424323412003AB667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847DE04224323412003AB667 /* LaunchScreen.storyboard */; };
-		847DE04F24323457003AB667 /* testShort.json in Resources */ = {isa = PBXBuildFile; fileRef = 847DE04D24323457003AB667 /* testShort.json */; };
-		847DE05024323457003AB667 /* testFull.json in Resources */ = {isa = PBXBuildFile; fileRef = 847DE04E24323457003AB667 /* testFull.json */; };
 		847DE05424327350003AB667 /* Sender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE05324327350003AB667 /* Sender.swift */; };
 		847DE0562432735B003AB667 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE0552432735B003AB667 /* Message.swift */; };
 		847DE059243276E0003AB667 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847DE058243276E0003AB667 /* DataLoader.swift */; };
@@ -33,6 +33,8 @@
 		8426ADA624463FCE0052F71F /* Date+CheckSameDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+CheckSameDay.swift"; sourceTree = "<group>"; };
 		8426ADA8244646860052F71F /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		8426ADAA24464EAF0052F71F /* Color+CustomColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+CustomColors.swift"; sourceTree = "<group>"; };
+		842CD606246988C400E72D8D /* testShort.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testShort.json; sourceTree = "<group>"; };
+		842CD607246988C400E72D8D /* testFull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testFull.json; sourceTree = "<group>"; };
 		847DE0342432340E003AB667 /* Jubilee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jubilee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847DE0372432340E003AB667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847DE0392432340E003AB667 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +43,6 @@
 		847DE04024323412003AB667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847DE04324323412003AB667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		847DE04524323412003AB667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		847DE04D24323457003AB667 /* testShort.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testShort.json; sourceTree = "<group>"; };
-		847DE04E24323457003AB667 /* testFull.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testFull.json; sourceTree = "<group>"; };
 		847DE05324327350003AB667 /* Sender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sender.swift; sourceTree = "<group>"; };
 		847DE0552432735B003AB667 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		847DE058243276E0003AB667 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 		847DE04C24323445003AB667 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				847DE04E24323457003AB667 /* testFull.json */,
-				847DE04D24323457003AB667 /* testShort.json */,
+				842CD607246988C400E72D8D /* testFull.json */,
+				842CD606246988C400E72D8D /* testShort.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -238,10 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847DE05024323457003AB667 /* testFull.json in Resources */,
+				842CD609246988C400E72D8D /* testFull.json in Resources */,
 				847DE04424323412003AB667 /* LaunchScreen.storyboard in Resources */,
 				847DE04124323412003AB667 /* Assets.xcassets in Resources */,
-				847DE04F24323457003AB667 /* testShort.json in Resources */,
+				842CD608246988C400E72D8D /* testShort.json in Resources */,
 				847DE03F2432340E003AB667 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
